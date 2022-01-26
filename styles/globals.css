@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 64px;
+  background: #872642 !important;
+  
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  color: rgba(255, 255, 255, 0.65);
+  background: #872642!important;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #872642 !important;
+}
+
+/* .ant-menu-dark, .ant-menu-item:hover, .ant-menu-dark .ant-menu-item-active {
+  color: red;
+  border-bottom: 2px solid red;
+} */
+
+.ant-menu-dark .ant-menu-item-active {
+  /* background-color: #B039CC !important; */
+  background-color: white !important;
+  opacity: 0.5;
+  color: black !important;;
+  /* padding-right: 15px !important; */
+  /* height: 64px;
+  padding: 0 50px;
+  height: 64px;
+  margin: 10px 2px;
+  border-radius: 10px !important;;
+  border-style: solid !important;;
+  border-color: #bebebe !important;; */
+}
