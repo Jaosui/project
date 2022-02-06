@@ -103,6 +103,24 @@
   line-height: 1.5;
 }
 
+img {
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+  display: block;
+  margin:auto ;
+}
+.slick-arrow {
+  color: #c46666;
+}
+.slick-prev {
+  z-index: 100px;
+  left: 20px !important;
+}
+.slick-next {
+  z-index: 100px;
+  left: 20px !important;
+}
 .logo {
   height: 1em;
   margin-left: 0.5rem;
