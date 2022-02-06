@@ -57,3 +57,12 @@ a {
 .slick-center .AchiversDetails {
   transform: scale(1.2);
 }
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 2.5rem 0;
+}
