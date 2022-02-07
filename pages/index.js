@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import Carousel from '../components/carousel'
 //import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Slider from "react-slick";
+import NewsContent from '../components/NewContent';
+
 
 
 
@@ -12,6 +14,9 @@ export default function index() {
     <div>
       <Header/> 
       <Carousel/>
+      <NewsContent/>
+      <Data/>
+      <ImageSlider/>
       
     </div>
   )
