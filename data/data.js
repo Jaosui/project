@@ -3,7 +3,7 @@ export const IMAGES = [
   {
    
     id: 1,
-    src: "https://www.allkpop.com/upload/2021/11/content/110855/1636638922-20211111-mark.jpg "  ,
+    src: "https://f.ptcdn.info/372/075/000/r256zq3iu1yGNnaW4igp-o.jpg "  ,
     alt: "Placeholder image",
   },
   {
@@ -24,7 +24,7 @@ export const IMAGES = [
   },
   {
     id: 5,
-    src: "https://www.hallyukstar.com/wp-content/uploads/2021/06/bambam-ribbon.jpg",
+    src: "https://0.soompi.io/wp-content/uploads/2021/05/26082917/BamBam-31.jpg",
     alt: "Placeholder image",
   },
   {

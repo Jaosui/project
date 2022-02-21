@@ -8,6 +8,7 @@ import ContentBox from '../components/ContentBox';
 //import { motion } from 'framer-motion/dist/framer-motion'
 
 
+
 export default function index() {
   return (
     <div style={{backgroundColor: '#4c4556', height: '100vh'}}>

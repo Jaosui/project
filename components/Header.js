@@ -31,7 +31,7 @@ export default function Header() {
       <div className="Theam.logo" />
       <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
       <Menu.Item key="1">KAM</Menu.Item>
-      <Menu.Item key="2">KPOP CONEBACK UPDATE</Menu.Item>
+      <Menu.Item key="2">KPOP COMEBACK UPDATE</Menu.Item>
         <Menu.Item key="3">KPOP PROFILE</Menu.Item>
         <Menu.Item key="4">KPOP LIGHTSTICK</Menu.Item>
         <Menu.Item key="5">CHAT BOARD</Menu.Item>

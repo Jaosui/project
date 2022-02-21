@@ -60,8 +60,8 @@ export default function ImageSlider({ images, slidesToShow = 3 }) {
           className={idx === imageIndex ? "activeSlide" : ImageSliderStyles.slide}
           key={image.id} 
         >
-          <button className={ImageSliderStyles.slideWrapper}>
-            {image.code ? image.code : <img src={image.src} alt={image.alt} width='500' height='300'/>}
+          <button className={ImageSliderStyles.slideWrapper }>
+            {image.code ? image.code : <img src={image.src} alt={image.alt} width='500' height='300' />}
             
           </button>
         </div>
