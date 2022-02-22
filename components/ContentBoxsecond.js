@@ -4,15 +4,15 @@ import { Card } from 'antd';
 import { RightCircleOutlined } from '@ant-design/icons';
 import { Row, Col } from 'antd';
 
-export default function ContentBox() {
+export default function ContentBoxsecond() {
   const { Meta } = Card;
   
   
 
 
-  const titleName1 = <div>NEW ALBUM FROM MARK <RightCircleOutlined /></div>
-  const titleName2 = <div>NEW ALBUM FROM LALISA <RightCircleOutlined /></div>
-  const titleName3 = <div>NEW ALBUM FROM TAEYEON <RightCircleOutlined /></div>
+  const titleName1 = <div>NEW ALBUM FROM TREASURE <RightCircleOutlined /></div>
+  const titleName2 = <div>NEW ALBUM FROM BTS <RightCircleOutlined /></div>
+  const titleName3 = <div>NEW ALBUM FROM MAMAMOO <RightCircleOutlined /></div>
   
   
 
@@ -24,7 +24,7 @@ export default function ContentBox() {
         hoverable
         style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
-        cover={<img alt="example" src="https://cdn.antaranews.com/cache/800x533/2021/10/30/WhatsApp-Image-2021-10-30-at-13.34.41.jpeg" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
+        cover={<img alt="example" src="https://cdn.allfamous.org/group/medium/treasure-oynd-allfamous.org.jpg?v=56" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
 
       >{titleName1}
       </Card></Col>
@@ -32,7 +32,7 @@ export default function ContentBox() {
         hoverable
         style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
-        cover={<img alt="example" src="https://www.naewna.com/uploads/news/source/598095.jpg" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
+        cover={<img alt="example" src="https://pbs.twimg.com/media/E5P6iRUVoAk92Ns.jpg" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
 
       >{titleName2}
       </Card>
@@ -41,7 +41,7 @@ export default function ContentBox() {
         hoverable
         style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
-        cover={<img alt="example" src="https://cms.dmpcdn.com/musicarticle/2021/07/06/da7acea0-de0b-11eb-ac6a-fb7a0291e89a_original.jpg" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
+        cover={<img alt="example" src="https://dudeplace.co/wp-content/uploads/2021/01/mamamoo.jpg" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
 
       >{titleName3}
       </Card></Col>

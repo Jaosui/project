@@ -6,9 +6,9 @@ import ReactDOM from 'react-dom';
 //import { Carousel } from 'react-responsive-carousel';
 import { UserOutlined,MenuOutlined, BgColorsOutlined } from '@ant-design/icons';
 
-
-export default function Header() {
+export default function Footer() {
     const { Header, Content, Footer } = Layout;
+   
     const navMenu = ["1","2","3"]
     const loginStyle = {
         //position: "absolute",
@@ -22,29 +22,19 @@ export default function Header() {
     return (
         <div>
             <Layout className="layout" style={{position: 'relative'}}>
-    <Header>
+    <Footer style={{position: 'relative'}}>
     
       <div className="Theam.logo" />
-      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
+      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['20']}>
       <Menu.Item key="1">KAM</Menu.Item>
       <Menu.Item key="2">KPOP COMEBACK UPDATE</Menu.Item>
-        <Menu.Item key="3">KPOP PROFILE</Menu.Item>
-        <Menu.Item key="4">KPOP LIGHTSTICK</Menu.Item>
-        <Menu.Item key="5">CHAT BOARD</Menu.Item>
-        <Menu.Item key="6" style = {{position: 'absolute', right: '12px'}} ><Button style={loginStyle} icon={
-            <span>
-              <MenuOutlined   />
-              <UserOutlined   />
-              
-            </span>
-          }>  
-        </Button>
-</Menu.Item>
+        
+
         
       </Menu>
       
   
-    </Header>
+    </Footer>
   </Layout>
   <>
   
@@ -52,5 +42,3 @@ export default function Header() {
         </div>
     )
 }
-
-

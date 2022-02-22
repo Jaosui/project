@@ -3,7 +3,7 @@ export const IMAGES = [
   {
    
     id: 1,
-    src: "https://f.ptcdn.info/372/075/000/r256zq3iu1yGNnaW4igp-o.jpg "  ,
+    src: "https://www.allkpop.com/upload/2021/11/content/110855/1636638922-20211111-mark.jpg"  ,
     alt: "Placeholder image",
   },
   {

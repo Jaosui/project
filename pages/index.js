@@ -6,6 +6,8 @@ import NewsContent from '../components/NewsContent';
 //import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import ContentBox from '../components/ContentBox';
 //import { motion } from 'framer-motion/dist/framer-motion'
+//import Footer from '../components/Footer'
+import ContentBoxsecond from '../components/ContentBoxsecond';
 
 
 
@@ -16,6 +18,9 @@ export default function index() {
       {/* <Carousel/> */}
       <NewsContent />
       <ContentBox />
+      <ContentBoxsecond />
+      
+      {/*<Footer/>*/}
     </div>
   )
 }
