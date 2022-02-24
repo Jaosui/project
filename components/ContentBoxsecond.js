@@ -22,7 +22,7 @@ export default function ContentBoxsecond() {
       <Row justify="center">
       <Col xs={{ span: 16, offset: 1 }} lg={{ span: 6, offset: 1 }} xl={{ span: 6, offset: 1 }}><Card  
         hoverable
-        style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white' }}
+        style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
         cover={<img alt="example" src="https://cdn.allfamous.org/group/medium/treasure-oynd-allfamous.org.jpg?v=56" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
 
@@ -30,7 +30,7 @@ export default function ContentBoxsecond() {
       </Card></Col>
       <Col  xs={{ span: 16, offset: 1 }} lg={{ span: 6, offset: 1 }} xl={{ span: 6, offset: 1 }}><Card  
         hoverable
-        style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white' }}
+        style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
         cover={<img alt="example" src="https://pbs.twimg.com/media/E5P6iRUVoAk92Ns.jpg" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
 
@@ -39,7 +39,7 @@ export default function ContentBoxsecond() {
       </Col>
       <Col  xs={{ span: 16, offset: 1 }} lg={{ span: 6, offset: 1 }} xl={{ span: 6, offset: 1 }}><Card  
         hoverable
-        style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white' }}
+        style={{ width: 250, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold' }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
         cover={<img alt="example" src="https://dudeplace.co/wp-content/uploads/2021/01/mamamoo.jpg" style={{ width: 250, borderRadius: '7px 7px 0 0' }} />}
 

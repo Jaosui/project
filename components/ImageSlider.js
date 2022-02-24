@@ -62,7 +62,7 @@ export default function ImageSlider({ images, slidesToShow = 3 }) {
         >
           <button className={ImageSliderStyles.slideWrapper }>
             {image.code ? image.code : <img src={image.src} alt={image.alt} width='500' height='300' />}
-            
+         
           </button>
         </div>
       );

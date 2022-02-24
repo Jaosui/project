@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 import { UserOutlined,MenuOutlined, BgColorsOutlined } from '@ant-design/icons';
 
 
+
 export default function Header() {
     const { Header, Content, Footer } = Layout;
     const navMenu = ["1","2","3"]
@@ -21,13 +22,15 @@ export default function Header() {
 
     return (
         <div style={{position: 'sticky', bottom: '0'}}>
+          
             <Layout className="layout">
               <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']} style={{display: 'flex', justifyContent: 'center'}}>
-                <Menu.Item key="1">KAM</Menu.Item>
-                <Menu.Item key="2">KPOP COMEBACK UPDATE</Menu.Item>
-                <Menu.Item key="3">KPOP PROFILE</Menu.Item>
+                <Menu.Item key="1"style={{fontWeight:'bold',border:'0',color:'white'}}>About Us</Menu.Item>
+                <Menu.Item key="2"style={{fontWeight:'bold',border:'0',color:'white'}}>Contact</Menu.Item>
+                <Menu.Item key="3"style={{fontWeight:'bold',border:'0',color:'white'}}>KPOP</Menu.Item>
               </Menu>
             </Layout>
+           
         </div>
     )
 }

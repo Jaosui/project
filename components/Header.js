@@ -26,11 +26,11 @@ export default function Header() {
     
       <div className="Theam.logo" />
       <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-      <Menu.Item key="1">KAM</Menu.Item>
-      <Menu.Item key="2">KPOP COMEBACK UPDATE</Menu.Item>
-        <Menu.Item key="3">KPOP PROFILE</Menu.Item>
-        <Menu.Item key="4">KPOP LIGHTSTICK</Menu.Item>
-        <Menu.Item key="5">CHAT BOARD</Menu.Item>
+      <Menu.Item key="1"style={{fontWeight:'bold',border:'0',color:'white'}}>KAM</Menu.Item>
+      <Menu.Item key="2"style={{fontWeight:'bold',border:'0',color:'white'}}>KPOP COMEBACK UPDATE</Menu.Item>
+        <Menu.Item key="3"style={{fontWeight:'bold',border:'0',color:'white'}}>KPOP PROFILE</Menu.Item>
+        <Menu.Item key="4"style={{fontWeight:'bold',border:'0',color:'white'}}>KPOP LIGHTSTICK</Menu.Item>
+        <Menu.Item key="5"style={{fontWeight:'bold',border:'0',color:'white'}}>CHAT BOARD</Menu.Item>
         <Menu.Item key="6" style = {{position: 'absolute', right: '12px'}} ><Button style={loginStyle} icon={
             <span>
               <MenuOutlined   />
