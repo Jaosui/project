@@ -8,6 +8,8 @@ import ContentBox from '../components/ContentBox';
 //import { motion } from 'framer-motion/dist/framer-motion'
 import Footer from '../components/Footer'
 import ContentBoxsecond from '../components/ContentBoxsecond';
+import ContactUs from '../components/ContactUs'
+//import React, { useState } from 'react';
 
 
 
