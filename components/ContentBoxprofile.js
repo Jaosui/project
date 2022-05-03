@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
+import fetch from 'node-fetch';
 import { Card } from 'antd';
 //import { RightCircleOutlined } from '@ant-design/icons';
 import { Row, Col } from 'antd';
@@ -25,25 +26,29 @@ export default function ContentBoxprofile() {
   const titleName13 = <div>ASTRO (아스트로) </div>
   const titleName14 = <div>STRAYKIDS (스트레이 키즈)</div>
   const titleName15 = <div>TWICE (두 배) </div>
-  
-  
-  
-  
 
+  function testfetch(){
+    fetch("https://k-pop-services.herokuapp.com/kpop-profile/getAll").then(res => res.json()).then(response => {console.log(response)})
+  }
+  /*React.useEffect(async() => {
+
+    const alldata_res  = await fetch("https://k-pop-services.herokuapp.com/kpop-profile/getAll")
+    console.log(alldata_res)
+     
+  });*/
   return (
     
     <div style={{ padding: '12px'}}>
       <Row justify="center">
-      <Col xs={{ span: 16, offset: 1 }} lg={{ span: 6, offset: 1 }} xl={{ span: 6, offset: 1 }}><Card  
+      <Col xs={{ span: 16, offset: 1 }} lg={{ span: 6, offset: 1 }} xl={{ span: 6, offset: 1 }} ><Card  
         hoverable
         style={{ width: 300, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold' }}
-        bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
         cover={<img alt="example" src="https://www.btblackxswan.com/wp-content/uploads/2021/07/86a7d1db-535f-4674-8116-837c11e6f952.jpg" style={{ width: 300, borderRadius: '7px 7px 0 0' }} />}
 
       >{titleName1}
       </Card></Col>
       
-      <Col  xs={{ span: 16, offset: 1 }} lg={{ span: 6, offset: 1 }} xl={{ span: 6, offset: 1 }}><Card  
+      <Col  xs={{ span: 16, offset: 1 }} lg={{ span: 6, offset: 1 }} xl={{ span: 6, offset: 1 }} onClick={testfetch}><Card  
         hoverable
         style={{ width: 300, borderRadius: '7px',backgroundColor: '#872642',color:'white',fontWeight:'bold'  }}
         bodyStyle={{padding: '7px 7px', textAlign: 'center'}}
